@@ -28,7 +28,12 @@ namespace COMP003A.LectureActivity2
             Console.WriteLine($"Sum: {sum}");
             Console.WriteLine($"Average: {average}");
             
-        
+            //comparisons of outputs
+            Console.WriteLine("\nComparison");
+            Console.WriteLine($"{a} > {b}: {a > b}");
+            Console.WriteLine($"{a} == {b}: {a == b}");
+
+
         }
     }
 }
