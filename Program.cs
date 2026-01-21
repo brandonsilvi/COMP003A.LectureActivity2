@@ -17,6 +17,18 @@ namespace COMP003A.LectureActivity2
 
             double sum = a + b; //use # for calcs
             double average = (a + b) / 2.0;
+            
+            //output the results w/ concatenation
+            Console.WriteLine("\nUsing Concatenation");
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Average: " + average);
+            
+            //output the results w/interpolation
+            Console.WriteLine("\nUsing Interpolation");
+            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Average: {average}");
+            
+        
         }
     }
 }
